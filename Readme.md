@@ -8,4 +8,4 @@ The folders are organized in the following way:
     - notebooks: Consist of finetuning, zeroshot generation and zero_shot_co-occurence notebooks. 
     - Scrips:  Consists of scripts to create the NER tagged dataset, generating all unqiue NER tags and preparaing the datasets for huggingface library.
 
-All finetuning of model flant5-base has been done with huggingface and logs been generated with wandb. To run, training or zero shot inference, simply use the notebooks in the **notebooks** folder.
+All finetuning of model flant5-base has been done with huggingface and logs been generated with wandb. The training was done in google colab pro with L4 GPU with 22.5GB of VRam in High RAM environment. Required modules to run the notebooks have been mentioned in the notebooks. To run, training or zero shot inference, simply use the notebooks in the **notebooks** folder.
